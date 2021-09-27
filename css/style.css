@@ -1,0 +1,170 @@
+/* Temel Ayarlamalar */
+body {
+  background-color: #ffe3e3;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  margin: 0%;
+}
+main {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3e00ff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #93b5c6;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #93b5c6;
+  display: inline-block;
+  width: 100%;
+}
+
+nav li,
+footer li {
+  display: inline-block;
+  text-align: center;
+}
+
+nav li a:hover {
+  background-color: #c9ccd5;
+}
+
+footer li a:hover {
+  background-color: #c9ccd5;
+}
+
+nav a,
+footer a {
+  display: block;
+  color: #ffe3e3;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Anasayfa Ayarlamalar */
+
+#genelfoto1 {
+  width: 400px;
+  border-radius: 150px;
+  float: left;
+  position: relative;
+  padding: 50px 50px 50px 100px;
+}
+
+#genelfoto2 {
+  width: 400px;
+  border-radius: 150px;
+  float: left;
+  position: relative;
+  padding: 50px 50px 50px 100px;
+}
+
+/* Ürünler Sayfası */
+
+.urunler img {
+  height: 300px;
+  width: 400px;
+}
+
+.urunler p {
+  color: rgb(70, 2, 102);
+}
+.urunler {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+}
+
+.fiyat {
+  color: #3304dd;
+  font-size: 22px;
+}
+
+.urunler button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.urunler button:hover {
+  opacity: 0.5;
+}
+
+#kolye1 {
+  float: left;
+  margin-left: 95px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#kolye2 {
+  float: left;
+  margin-left: 95px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#yüzük1 {
+  float: left;
+  margin-left: 95px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#yüzük2 {
+  float: left;
+  margin-left: 95px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#bileklik1 {
+  float: left;
+  margin-left: 95px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#bileklik2 {
+  float: left;
+  margin-left: 95px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#hatalibaslik {
+  position:relative; top: 10px; left: -315px;
+}
