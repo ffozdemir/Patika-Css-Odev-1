@@ -63,19 +63,24 @@ footer a {
 /* Anasayfa Ayarlamalar */
 
 #genelfoto1 {
-  width: 400px;
+  width: 300px;
   border-radius: 150px;
   float: left;
-  position: relative;
-  padding: 50px 50px 50px 100px;
+  position: relative; bottom: 50px;
+  padding: 30px 30px 30px 30px;
 }
 
 #genelfoto2 {
-  width: 400px;
+  width: 300px;
   border-radius: 150px;
-  float: left;
-  position: relative;
-  padding: 50px 50px 50px 100px;
+  float: right;
+  position: relative; bottom: 50px;
+  padding: 30px 30px 30px 30px;
+}
+
+.anasayfamakale {
+  float: inline-end;
+  
 }
 
 /* Ürünler Sayfası */
